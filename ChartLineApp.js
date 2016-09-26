@@ -1,6 +1,6 @@
 var make_line_chart = function(text) {
-var margin = {top: 20, right: 80, bottom: 30, left: 60},
-var width = 960 - margin.left - margin.right,
+var margin = {top: 20, right: 80, bottom: 30, left: 60};
+var width = 960 - margin.left - margin.right;
 var height = 550 - margin.top - margin.bottom;
 
 var parseDate = d3.time.format("%Y%m%d").parse;
