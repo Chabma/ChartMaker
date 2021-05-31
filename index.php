@@ -367,7 +367,7 @@
 			curl_setopt($ch, CURLOPT_POST, 1);
 			curl_setopt($ch, CURLOPT_URL, "http://api.shadowtv.net/reperio/login");
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-			$data = array("username" => "shadowtv", "password" => "630ninth");
+			$data = array("username" => "USERNAME", "password" => "630NINTH");
 			$data_string = json_encode($data);
 			curl_setopt($ch, CURLOPT_POSTFIELDS, $data_string);
 			curl_setopt($ch, CURLOPT_HTTPHEADER, array(
