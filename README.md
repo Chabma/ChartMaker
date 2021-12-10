@@ -1,7 +1,11 @@
 # ChartMaker
+test project interacting with the shadowtv api
+
 Chart maker using shadowtv.api
+
+Currently not live
+
 Chart App User Guide
-Currently located at http://192.168.168.110:8000
 
 There are two modes for the Charting App, "Bar Graph" and "Line Chart"
 
